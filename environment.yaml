@@ -1,5 +1,6 @@
 name: siraj_week2_finance
 channels:
+  - anaconda
   - conda-forge
   - defaults
 dependencies:
@@ -10,7 +11,7 @@ dependencies:
   - attrs=19.1.0=py_0
   - blas=1.0=mkl
   - bleach=3.1.0=py_0
-  - ca-certificates=2019.6.16=hecc5488_0
+  - ca-certificates=2019.5.15=1
   - certifi=2019.6.16=py36_1
   - cffi=1.12.3=py36hb32ad35_0
   - chardet=3.0.4=py36_1003
@@ -57,7 +58,7 @@ dependencies:
   - nbformat=4.4.0=py_1
   - numba=0.45.1=py36hf9181ef_0
   - numpy=1.17.2=py36hc71023c_0
-  - openssl=1.1.1c=hfa6e2cd_0
+  - openssl=1.1.1=he774522_0
   - packaging=19.0=py_0
   - pandas=0.25.1=py36he350917_0
   - pandas-profiling=2.3.0=py_0
@@ -99,7 +100,7 @@ dependencies:
   - sip=4.19.8=py36h6538335_1000
   - six=1.12.0=py36_1000
   - sqlite=3.29.0=hfa6e2cd_1
-  - statsmodels=0.10.1=py36hfa6e2cd_0
+  - statsmodels=0.10.1=py36h8c2d366_0
   - tbb=2019.8=he980bc4_0
   - testpath=0.4.2=py_1001
   - tornado=6.0.3=py36hfa6e2cd_0
@@ -118,5 +119,15 @@ dependencies:
   - zeromq=4.3.2=h6538335_2
   - zipp=0.6.0=py_0
   - zlib=1.2.11=h2fa13f4_1006
+  - pip:
+    - backcall==0.1.0
+    - ipykernel==5.1.2
+    - ipython==7.8.0
+    - jedi==0.15.1
+    - multitasking==0.0.9
+    - parso==0.5.1
+    - pickleshare==0.7.5
+    - prompt-toolkit==2.0.9
+    - yfinance==0.1.45
 prefix: C:\Anaconda3\envs\siraj_week2_finance
 
